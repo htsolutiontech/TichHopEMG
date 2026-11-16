@@ -1,0 +1,3 @@
+Vườn học nhỏ POC v2.0 — Sheets-only auth and RBAC
+2026-11-16
+Export for local testing; not deployed or pushed to GitHub.

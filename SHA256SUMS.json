@@ -1,0 +1,22 @@
+{
+  ".github/workflows/pages.yml": "299852774c9ab150b1b837e645c8000b534e0f10dad33f577ca109bd379585a5",
+  ".gitignore": "3849b8fa592e132eb6c9b57ba7ff2a364dbddc786f180d3ff71b0f17e76e1242",
+  "DOC_TRUOC_KHI_TEST.txt": "25ced0465784b1cb4f0e4111a84d9a4ec6b8d3d0d854435e978d319d2f097f92",
+  "README.md": "2c012a40fb776a8653f132fc7cf51822bbdfe944c9319217e170c71c0c653cc9",
+  "RUN_TEST_WINDOWS.bat": "041d2d7d8f54ac3d74e33cbed6e37dfb900e645855fe1116d088db52f0693557",
+  "VERSION.txt": "79c7bd5ccb6b68fae44bffe8d3103985956f51a4c2ec847a61decc86975117ac",
+  "app.js": "ff4ebf252d1b0c7c059cf2e055d4eed03ccf7f333b581b82e1f713071b59af59",
+  "apps-script/Auth.gs": "42205aed34f90da40bf3fb4b9d7a93a416a521e4a720811f2d9d84bfbc9f591b",
+  "apps-script/Code.gs": "bceaa41d50ac56751dadc019b30da90a2d24bf7624361fd9c93b34325bd0a3d9",
+  "apps-script/Seed.gs": "59cd814febd9781ed76014aac710f9be639bd667546206eec1c0e26dec4f6e5c",
+  "apps-script/appsscript.json": "9078b623f45c9d6143ccb131de8e8a679e19b29550709c4c86f2abb8687aed21",
+  "config.js": "dbc6c05cd763c732748ce6f381e7bfe43445ea9c68f33147360be3fd7595f5d0",
+  "data/curriculum.json": "72235a8e0a496e46137ba8b893911df61c4adee2037e3c9d272c36d43325e04d",
+  "docs/KIEM_THU.md": "511d9161d040c7d755ef55a785470f5cc19d8d7c0a58393cbe0d13f7bb5eb5b2",
+  "docs/THIET_KE.md": "ef99e83957c46fd3a8cf791f2f61c16ddaccadf4eeeaa10642d9021b5c971d24",
+  "index.html": "d12be96a1b71b30c97e8f4f581c2df4e667fa075d069caa8f8c6fed384f0e66f",
+  "style.css": "8d7dc7bd1e1f140ba34cbd604bb958a1ee7c98ce6fd8884ba4cd866f3fe33670",
+  "tests/backend.test.cjs": "fc55fbec60dc5b452ce3ccf79e9ba636b3653649017933ced75aed9162f5f73e",
+  "tests/client-auth.test.cjs": "56ac5b0d116e439e5f293df1847ae6221d9f006ff935e137bd5618893e61edb8",
+  "tools_seed.py": "aa587d5a89904f7b07651c11b84632536f29b3cac34fa16c260764c0eb37fa99"
+}

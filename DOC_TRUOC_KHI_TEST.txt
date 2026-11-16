@@ -1,0 +1,27 @@
+﻿VƯỜN HỌC NHỎ V2 — GOOGLE SHEETS + APPS SCRIPT
+
+CHẠY THỬ GIAO DIỆN
+1. Giải nén toàn bộ ZIP.
+2. Máy Windows cần Python 3.
+3. Nhấp đúp RUN_TEST_WINDOWS.bat. Giữ cửa sổ lệnh mở.
+4. Trình duyệt mở http://127.0.0.1:8765/; nếu cần bấm F5.
+5. Chọn “Khám phá bản trải nghiệm”. Mật khẩu/tài khoản thật chưa cần cho chế độ này.
+
+KẾT NỐI GOOGLE SHEET ĐỂ TEST ĐĂNG KÝ VÀ LƯU DỮ LIỆU THẬT
+1. Tạo Google Sheet riêng tư → Extensions → Apps Script.
+2. Thêm đủ Code.gs, Auth.gs, Seed.gs và appsscript.json từ thư mục apps-script.
+3. Project Settings → Script Properties: đặt SPREADSHEET_ID bằng ID Sheet.
+4. Chạy setup(), cấp quyền. Sao lưu riêng AUTH_SECRET được tự tạo; không xóa/thay secret này.
+5. Chạy installRetentionTrigger().
+6. Deploy Web app: Execute as Me, Who has access Anyone. Lấy URL /exec.
+7. Điền duy nhất URL /exec vào apiUrl trong config.js. Không cần Firebase/API key.
+8. Tải lại ứng dụng, tạo tài khoản cha mẹ, lấy mã 6 số qua email để xác minh rồi đăng nhập.
+9. Để cấp admin: đặt ADMIN_EMAIL trong Script Properties bằng email đã xác minh, chạy syncAdmin().
+
+Đọc README.md để xem hướng dẫn chi tiết, RBAC, mật khẩu, giới hạn quota và cách xử lý lỗi.
+
+GIỮ NGUYÊN
+70 buổi lớp Lá, minh họa, âm thanh, game tìm cặp, bài tập chấm điểm, 80/100 mở buổi tiếp theo, nhật ký cha mẹ, CSV. Lớp 1–5 chờ giáo án.
+
+TRẠNG THÁI
+Đã đạt 44 kiểm tra backend mô phỏng và 3 kiểm tra client auth. Chưa có Sheet/Web App của anh nên chưa kiểm thử dịch vụ thật. Gói v2 chưa tự cập nhật repo GitHub. Không dùng dữ liệu thật của trẻ trước khi hoàn thành checklist trong docs/KIEM_THU.md.

@@ -1,0 +1,2425 @@
+{
+  "version": 1,
+  "source": "Giáo án tích hợp 2026_2027.docx",
+  "notice": "Giáo án tham khảo biên soạn độc lập; chưa được EMG xác nhận. Bài tập trên ứng dụng là phần chuyển thể bổ sung, không thay thế quan sát của giáo viên.",
+  "passScore": 80,
+  "grades": [
+    {
+      "id": "la",
+      "name": "Mầm non · Lớp Lá",
+      "status": "available"
+    },
+    {
+      "id": "1",
+      "name": "Lớp 1",
+      "status": "coming_soon"
+    },
+    {
+      "id": "2",
+      "name": "Lớp 2",
+      "status": "coming_soon"
+    },
+    {
+      "id": "3",
+      "name": "Lớp 3",
+      "status": "coming_soon"
+    },
+    {
+      "id": "4",
+      "name": "Lớp 4",
+      "status": "coming_soon"
+    },
+    {
+      "id": "5",
+      "name": "Lớp 5",
+      "status": "coming_soon"
+    }
+  ],
+  "vocabulary": {
+    "name": {
+      "en": "name",
+      "vi": "tên",
+      "icon": "🏷️"
+    },
+    "friend": {
+      "en": "friend",
+      "vi": "người bạn",
+      "icon": "🧒"
+    },
+    "teacher": {
+      "en": "teacher",
+      "vi": "cô hoặc thầy giáo",
+      "icon": "👩‍🏫"
+    },
+    "book": {
+      "en": "book",
+      "vi": "quyển sách",
+      "icon": "📖"
+    },
+    "bag": {
+      "en": "bag",
+      "vi": "cặp sách",
+      "icon": "🎒"
+    },
+    "chair": {
+      "en": "chair",
+      "vi": "cái ghế",
+      "icon": "🪑"
+    },
+    "red": {
+      "en": "red",
+      "vi": "màu đỏ",
+      "icon": "🔴"
+    },
+    "blue": {
+      "en": "blue",
+      "vi": "màu xanh dương",
+      "icon": "🔵"
+    },
+    "yellow": {
+      "en": "yellow",
+      "vi": "màu vàng",
+      "icon": "🟡"
+    },
+    "circle": {
+      "en": "circle",
+      "vi": "hình tròn",
+      "icon": "⚪"
+    },
+    "square": {
+      "en": "square",
+      "vi": "hình vuông",
+      "icon": "🟩"
+    },
+    "triangle": {
+      "en": "triangle",
+      "vi": "hình tam giác",
+      "icon": "🔺"
+    },
+    "head": {
+      "en": "head",
+      "vi": "đầu",
+      "icon": "🙂"
+    },
+    "hand": {
+      "en": "hand",
+      "vi": "bàn tay",
+      "icon": "✋"
+    },
+    "foot": {
+      "en": "foot",
+      "vi": "bàn chân",
+      "icon": "🦶"
+    },
+    "eyes": {
+      "en": "eyes",
+      "vi": "đôi mắt",
+      "icon": "👀"
+    },
+    "ears": {
+      "en": "ears",
+      "vi": "đôi tai",
+      "icon": "👂"
+    },
+    "nose": {
+      "en": "nose",
+      "vi": "mũi",
+      "icon": "👃"
+    },
+    "happy": {
+      "en": "happy",
+      "vi": "vui",
+      "icon": "😊"
+    },
+    "sad": {
+      "en": "sad",
+      "vi": "buồn",
+      "icon": "😢"
+    },
+    "tired": {
+      "en": "tired",
+      "vi": "mệt",
+      "icon": "😴"
+    },
+    "mother": {
+      "en": "mother",
+      "vi": "mẹ",
+      "icon": "👩"
+    },
+    "father": {
+      "en": "father",
+      "vi": "bố",
+      "icon": "👨"
+    },
+    "baby": {
+      "en": "baby",
+      "vi": "em bé",
+      "icon": "👶"
+    },
+    "home": {
+      "en": "home",
+      "vi": "ngôi nhà",
+      "icon": "🏠"
+    },
+    "door": {
+      "en": "door",
+      "vi": "cửa ra vào",
+      "icon": "🚪"
+    },
+    "window": {
+      "en": "window",
+      "vi": "cửa sổ",
+      "icon": "🪟"
+    },
+    "in": {
+      "en": "in",
+      "vi": "ở trong",
+      "icon": "📥"
+    },
+    "on": {
+      "en": "on",
+      "vi": "ở trên",
+      "icon": "⬆️"
+    },
+    "under": {
+      "en": "under",
+      "vi": "ở dưới",
+      "icon": "⬇️"
+    },
+    "apple": {
+      "en": "apple",
+      "vi": "quả táo",
+      "icon": "🍎"
+    },
+    "banana": {
+      "en": "banana",
+      "vi": "quả chuối",
+      "icon": "🍌"
+    },
+    "orange": {
+      "en": "orange",
+      "vi": "quả cam",
+      "icon": "🍊"
+    },
+    "rice": {
+      "en": "rice",
+      "vi": "cơm",
+      "icon": "🍚"
+    },
+    "milk": {
+      "en": "milk",
+      "vi": "sữa",
+      "icon": "🥛"
+    },
+    "water": {
+      "en": "water",
+      "vi": "nước",
+      "icon": "💧"
+    },
+    "wash": {
+      "en": "wash",
+      "vi": "rửa",
+      "icon": "🧼"
+    },
+    "clean": {
+      "en": "clean",
+      "vi": "sạch",
+      "icon": "✨"
+    },
+    "dirty": {
+      "en": "dirty",
+      "vi": "bẩn",
+      "icon": "🟤"
+    },
+    "big": {
+      "en": "big",
+      "vi": "lớn",
+      "icon": "🐘"
+    },
+    "small": {
+      "en": "small",
+      "vi": "nhỏ",
+      "icon": "🐭"
+    },
+    "same": {
+      "en": "same",
+      "vi": "giống nhau",
+      "icon": "🟰"
+    },
+    "gift": {
+      "en": "gift",
+      "vi": "món quà",
+      "icon": "🎁"
+    },
+    "star": {
+      "en": "star",
+      "vi": "ngôi sao",
+      "icon": "⭐"
+    },
+    "card": {
+      "en": "card",
+      "vi": "tấm thiệp",
+      "icon": "💌"
+    },
+    "cat": {
+      "en": "cat",
+      "vi": "con mèo",
+      "icon": "🐱"
+    },
+    "dog": {
+      "en": "dog",
+      "vi": "con chó",
+      "icon": "🐶"
+    },
+    "fish": {
+      "en": "fish",
+      "vi": "con cá",
+      "icon": "🐟"
+    },
+    "bird": {
+      "en": "bird",
+      "vi": "con chim",
+      "icon": "🐦"
+    },
+    "duck": {
+      "en": "duck",
+      "vi": "con vịt",
+      "icon": "🦆"
+    },
+    "cow": {
+      "en": "cow",
+      "vi": "con bò",
+      "icon": "🐮"
+    },
+    "walk": {
+      "en": "walk",
+      "vi": "đi bộ",
+      "icon": "🚶"
+    },
+    "jump": {
+      "en": "jump",
+      "vi": "nhảy",
+      "icon": "🦘"
+    },
+    "swim": {
+      "en": "swim",
+      "vi": "bơi",
+      "icon": "🏊"
+    },
+    "seed": {
+      "en": "seed",
+      "vi": "hạt giống",
+      "icon": "🌰"
+    },
+    "leaf": {
+      "en": "leaf",
+      "vi": "chiếc lá",
+      "icon": "🍃"
+    },
+    "flower": {
+      "en": "flower",
+      "vi": "bông hoa",
+      "icon": "🌼"
+    },
+    "spring": {
+      "en": "spring",
+      "vi": "mùa xuân",
+      "icon": "🌸"
+    },
+    "sunny": {
+      "en": "sunny",
+      "vi": "trời nắng",
+      "icon": "☀️"
+    },
+    "rainy": {
+      "en": "rainy",
+      "vi": "trời mưa",
+      "icon": "🌧️"
+    },
+    "windy": {
+      "en": "windy",
+      "vi": "trời có gió",
+      "icon": "🌬️"
+    },
+    "hot": {
+      "en": "hot",
+      "vi": "nóng",
+      "icon": "🌡️"
+    },
+    "cold": {
+      "en": "cold",
+      "vi": "lạnh",
+      "icon": "❄️"
+    },
+    "coat": {
+      "en": "coat",
+      "vi": "áo khoác",
+      "icon": "🧥"
+    },
+    "car": {
+      "en": "car",
+      "vi": "ô tô",
+      "icon": "🚗"
+    },
+    "bus": {
+      "en": "bus",
+      "vi": "xe buýt",
+      "icon": "🚌"
+    },
+    "bike": {
+      "en": "bike",
+      "vi": "xe đạp",
+      "icon": "🚲"
+    },
+    "stop": {
+      "en": "stop",
+      "vi": "dừng lại",
+      "icon": "🛑"
+    },
+    "go": {
+      "en": "go",
+      "vi": "đi",
+      "icon": "🟢"
+    },
+    "wait": {
+      "en": "wait",
+      "vi": "chờ",
+      "icon": "⏳"
+    },
+    "doctor": {
+      "en": "doctor",
+      "vi": "bác sĩ",
+      "icon": "🩺"
+    },
+    "cook": {
+      "en": "cook",
+      "vi": "đầu bếp",
+      "icon": "👨‍🍳"
+    },
+    "farmer": {
+      "en": "farmer",
+      "vi": "người nông dân",
+      "icon": "👨‍🌾"
+    },
+    "paper": {
+      "en": "paper",
+      "vi": "giấy",
+      "icon": "📄"
+    },
+    "plastic": {
+      "en": "plastic",
+      "vi": "nhựa",
+      "icon": "🧴"
+    },
+    "bin": {
+      "en": "bin",
+      "vi": "thùng rác",
+      "icon": "🗑️"
+    },
+    "float": {
+      "en": "float",
+      "vi": "nổi",
+      "icon": "🛟"
+    },
+    "sink": {
+      "en": "sink",
+      "vi": "chìm",
+      "icon": "⚓"
+    },
+    "boat": {
+      "en": "boat",
+      "vi": "thuyền",
+      "icon": "⛵"
+    },
+    "long": {
+      "en": "long",
+      "vi": "dài",
+      "icon": "📏"
+    },
+    "short": {
+      "en": "short",
+      "vi": "ngắn",
+      "icon": "🖍️"
+    },
+    "heavy": {
+      "en": "heavy",
+      "vi": "nặng",
+      "icon": "🏋️"
+    },
+    "school": {
+      "en": "school",
+      "vi": "trường học",
+      "icon": "🏫"
+    },
+    "pencil": {
+      "en": "pencil",
+      "vi": "bút chì",
+      "icon": "✏️"
+    },
+    "ruler": {
+      "en": "ruler",
+      "vi": "thước kẻ",
+      "icon": "📐"
+    }
+  },
+  "lessons": [
+    {
+      "id": "la-01",
+      "order": 1,
+      "grade": "la",
+      "week": 1,
+      "topic": "Chào lớp mới",
+      "title": "Chào hỏi và giới thiệu tên",
+      "minutes": 30,
+      "goal": "Chào bằng lời hoặc động tác; chọn đúng nhân vật teacher.",
+      "words": [
+        "name",
+        "friend",
+        "teacher"
+      ],
+      "phrase": "Hello. My name is …",
+      "family": "Chào một người thân bằng Hello; không yêu cầu quay video.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Hello. My name is …” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối chào một bạn rồi chào cả lớp; trẻ chọn vẫy tay hoặc nói tên. Dùng ảnh để phân biệt teacher và friend.",
+        "14–21 phút  Chơi tích hợp. Chuyền bóng vải theo vòng tròn; người nhận chào một bạn. Đếm 1–3 lượt bằng tiếng Anh sau khi GV làm mẫu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Đáp lại lời chào ở một lượt cá nhân; chỉ đúng teacher trong hai ảnh.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-02",
+      "order": 2,
+      "grade": "la",
+      "week": 1,
+      "topic": "Chào lớp mới",
+      "title": "Kết bạn trong lớp",
+      "minutes": 30,
+      "goal": "Tìm một bạn để chào; tham gia luân phiên theo tín hiệu.",
+      "words": [
+        "name",
+        "friend",
+        "teacher"
+      ],
+      "phrase": "Hello, friend. Goodbye.",
+      "family": "Chào một người thân bằng Hello; không yêu cầu quay video.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Hello, friend. Goodbye.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV dùng hai rối diễn cảnh gặp rồi tạm biệt. Trẻ sắp hai tranh theo trình tự và bắt chước động tác.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép đôi bằng hai thẻ hình giống nhau, chào bạn rồi đổi cặp khi có tín hiệu. Không yêu cầu trẻ ôm hoặc chạm nhau.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chủ động hoặc có gợi ý chào một bạn; xếp đúng hai tranh gặp và tạm biệt.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-03",
+      "order": 3,
+      "grade": "la",
+      "week": 2,
+      "topic": "Đồ dùng lớp học",
+      "title": "Tìm đồ dùng quen thuộc",
+      "minutes": 30,
+      "goal": "Nhận ra ba đồ dùng; ghép một đồ vật với một thẻ.",
+      "words": [
+        "book",
+        "bag",
+        "chair"
+      ],
+      "phrase": "Point to the book.",
+      "family": "Tìm một book và một bag ở nhà cùng người lớn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Point to the book.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV mở túi bí mật, lấy từng đồ vật và nói tên. Trẻ nghe rồi chỉ vào đồ vật thật đặt cách nhau.",
+        "14–21 phút  Chơi tích hợp. Mỗi nhóm nhận ba thẻ ảnh; đặt mỗi thẻ cạnh đúng đồ vật. GV đếm one, two, three khi cả nhóm kiểm tra.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng ít nhất hai đồ dùng trong ba lượt, ghi cả mức hỗ trợ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-04",
+      "order": 4,
+      "grade": "la",
+      "week": 2,
+      "topic": "Đồ dùng lớp học",
+      "title": "Một hai ba trong lớp",
+      "minutes": 30,
+      "goal": "Tạo nhóm 1–3 đồ vật; thực hiện một chỉ dẫn lấy và đặt.",
+      "words": [
+        "book",
+        "bag",
+        "chair"
+      ],
+      "phrase": "Take a book. Put it in the bag.",
+      "family": "Tìm một book và một bag ở nhà cùng người lớn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Take a book. Put it in the bag.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV làm mẫu lấy một quyển sách rồi bỏ vào cặp; trẻ thực hiện từng bước, sau đó thử ghép hai bước nếu sẵn sàng.",
+        "14–21 phút  Chơi tích hợp. Dùng sách nhỏ và ba vòng giấy; trẻ đặt 1, 2 hoặc 3 quyển vào vòng theo thẻ số, chạm từng vật khi đếm.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng lượng 1–3 ở hai lần thử; ghi riêng việc hiểu lệnh và việc đếm.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-05",
+      "order": 5,
+      "grade": "la",
+      "week": 3,
+      "topic": "Màu quanh em",
+      "title": "Săn tìm ba màu",
+      "minutes": 30,
+      "goal": "Chỉ đúng màu được nghe; phân loại theo một thuộc tính.",
+      "words": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "phrase": "Show me red.",
+      "family": "Chỉ hai đồ vật có màu đã học; không dùng màn hình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Show me red.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giơ ba thẻ, gọi một màu và làm mẫu chọn thẻ. Trẻ lựa chọn từ hai màu trước rồi tăng lên ba.",
+        "14–21 phút  Chơi tích hợp. Nhóm nhỏ phân khối vào ba tấm nền tương ứng; kiểm tra bằng cách đặt vật sát thẻ màu, không thi tốc độ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân đúng 3/4 vật theo màu; không trừ kết quả vì chưa nói được tên màu.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-06",
+      "order": 6,
+      "grade": "la",
+      "week": 3,
+      "topic": "Màu quanh em",
+      "title": "Bức tranh màu của lớp",
+      "minutes": 30,
+      "goal": "Chọn màu theo yêu cầu; nói từ hoặc cụm mô tả sản phẩm.",
+      "words": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "phrase": "It is blue.",
+      "family": "Chỉ hai đồ vật có màu đã học; không dùng màn hình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “It is blue.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV kể bằng tranh về chiếc cặp thay màu: red, blue, yellow. Trẻ chỉ màu xuất hiện tiếp theo khi GV mở từng tranh.",
+        "14–21 phút  Chơi tích hợp. Mỗi trẻ tô một mảng hình bằng màu tự chọn, ghép thành tranh chung. GV hỏi màu; trẻ chỉ, nói blue hoặc It is blue.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng màu trong hai lời nhắc; chia sẻ màu sản phẩm theo cách trẻ thoải mái.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-07",
+      "order": 7,
+      "grade": "la",
+      "week": 4,
+      "topic": "Hình dạng vui nhộn",
+      "title": "Chạm và ghép hình",
+      "minutes": 30,
+      "goal": "Phân biệt ba hình; ghép theo đường viền.",
+      "words": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "phrase": "Find a circle.",
+      "family": "Tìm một đồ vật dạng circle trong nhà.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Find a circle.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho trẻ lần đường viền bằng ngón tay; gọi tên hình, nhấn sự khác nhau bằng thao tác xoay và đặt chồng.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép hình vào ba ô viền, rồi tìm đồ vật lớp học có dạng gần giống. Chấp nhận cách giải thích bằng tiếng Việt.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng hai trong ba loại hình khi đã đổi vị trí.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-08",
+      "order": 8,
+      "grade": "la",
+      "week": 4,
+      "topic": "Hình dạng vui nhộn",
+      "title": "Xây ngôi nhà bằng hình",
+      "minutes": 30,
+      "goal": "Tạo sản phẩm từ hình; đếm từng loại trong phạm vi 3.",
+      "words": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "phrase": "A square. A triangle.",
+      "family": "Tìm một đồ vật dạng circle trong nhà.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “A square. A triangle.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV lắp một ngôi nhà bằng một square và một triangle; tháo ra để trẻ nhận ra các phần tạo thành.",
+        "14–21 phút  Chơi tích hợp. Theo cặp, trẻ xây hình nhà hoặc robot tùy ý; chỉ hình được GV hỏi và đếm từng nhóm hình đến 3.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chỉ đúng hai hình trong sản phẩm; đếm tương ứng từng vật đến 3.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-09",
+      "order": 9,
+      "grade": "la",
+      "week": 5,
+      "topic": "Cơ thể em",
+      "title": "Nghe và chỉ bộ phận",
+      "minutes": 30,
+      "goal": "Chỉ đúng bộ phận trên tranh hoặc bản thân; làm theo lệnh đơn.",
+      "words": [
+        "head",
+        "hand",
+        "foot"
+      ],
+      "phrase": "Point to your head.",
+      "family": "Chơi chỉ head, hand, foot với người thân trong một phút.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Point to your head.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giới thiệu ba bộ phận trên rối; trẻ chọn chỉ vào tranh hoặc tự chỉ, không chạm vào cơ thể bạn.",
+        "14–21 phút  Chơi tích hợp. Chơi rối ra lệnh: head, hand, foot; trẻ phản hồi bằng chỉ hoặc đặt thẻ lên tranh, rồi đổi vai người ra lệnh.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phản hồi đúng hai trong ba lệnh không cần nhìn bạn làm mẫu.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-10",
+      "order": 10,
+      "grade": "la",
+      "week": 5,
+      "topic": "Cơ thể em",
+      "title": "Bàn tay bàn chân chuyển động",
+      "minutes": 30,
+      "goal": "Phân loại dấu tay và chân; nghe hai lệnh liên tiếp khi sẵn sàng.",
+      "words": [
+        "head",
+        "hand",
+        "foot"
+      ],
+      "phrase": "Show your hand. Point to your foot.",
+      "family": "Chơi chỉ head, hand, foot với người thân trong một phút.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Show your hand. Point to your foot.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV so sánh tranh dấu bàn tay với dấu bàn chân; trẻ nói hoặc chỉ xem dấu nào thuộc bộ phận nào.",
+        "14–21 phút  Chơi tích hợp. Trẻ đặt thẻ dấu vào hai nhóm, rồi đi chậm trên đường giấy và dừng để chỉ hand hoặc foot theo tín hiệu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân loại đúng 3/4 thẻ; ghi có làm được chuỗi hai lệnh hay cần tách bước.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-11",
+      "order": 11,
+      "grade": "la",
+      "week": 6,
+      "topic": "Các giác quan",
+      "title": "Em nhìn và em nghe",
+      "minutes": 30,
+      "goal": "Nhận ra eyes và ears; ghép giác quan với trải nghiệm.",
+      "words": [
+        "eyes",
+        "ears",
+        "nose"
+      ],
+      "phrase": "Point to your ears.",
+      "family": "Tìm một âm thanh quen thuộc; hỏi con dùng bộ phận nào để nghe.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Point to your ears.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV lắc hộp kín ở âm lượng nhẹ rồi mở tranh ears; giơ thẻ màu rồi mở tranh eyes. Trẻ nhận ra bộ phận sử dụng.",
+        "14–21 phút  Chơi tích hợp. GV lần lượt giơ tranh hoặc tạo tiếng gõ nhẹ; trẻ chọn thẻ eyes hay ears và giải thích bằng chỉ hoặc lời.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng bộ phận ở ba trong bốn tình huống.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-12",
+      "order": 12,
+      "grade": "la",
+      "week": 6,
+      "topic": "Các giác quan",
+      "title": "Khám phá có lựa chọn",
+      "minutes": 30,
+      "goal": "Nhận ra nose; lựa chọn tham gia quan sát hoặc nghe.",
+      "words": [
+        "eyes",
+        "ears",
+        "nose"
+      ],
+      "phrase": "Eyes, ears, nose.",
+      "family": "Tìm một âm thanh quen thuộc; hỏi con dùng bộ phận nào để nghe.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Eyes, ears, nose.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV dùng tranh hoa để giới thiệu nose, không bắt trẻ ngửi vật lạ. Ôn ba bộ phận trên rối và chơi chỉ đúng.",
+        "14–21 phút  Chơi tích hợp. Ba góc gồm tìm màu bằng mắt, nghe hộp âm thanh và ghép tranh mũi với hoa; trẻ luân chuyển, được bỏ qua góc gây khó chịu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng thẻ bộ phận ở hai góc; bày tỏ muốn tiếp tục hoặc dừng bằng lời hay cử chỉ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-13",
+      "order": 13,
+      "grade": "la",
+      "week": 7,
+      "topic": "Cảm xúc của em",
+      "title": "Gọi tên cảm xúc",
+      "minutes": 30,
+      "goal": "Ghép biểu cảm với từ; lựa chọn cách chia sẻ.",
+      "words": [
+        "happy",
+        "sad",
+        "tired"
+      ],
+      "phrase": "I am happy.",
+      "family": "Cho con chọn một thẻ cảm xúc; lắng nghe mà không chấm đúng sai.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I am happy.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối được tặng sách, làm rơi tranh rồi buồn, sau chơi thì mệt; dùng ba thẻ để trẻ ghép từng cảnh.",
+        "14–21 phút  Chơi tích hợp. Trẻ chọn thẻ cho một nhân vật và diễn nét mặt nếu muốn. Không ép trẻ kể chuyện riêng hoặc phải vui.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng hai tình huống với thẻ cảm xúc; có một cách phản hồi câu hỏi.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-14",
+      "order": 14,
+      "grade": "la",
+      "week": 7,
+      "topic": "Cảm xúc của em",
+      "title": "Khi bạn cần giúp đỡ",
+      "minutes": 30,
+      "goal": "Nhận ra cảm xúc của bạn; dùng help hoặc cử chỉ phù hợp.",
+      "words": [
+        "happy",
+        "sad",
+        "tired"
+      ],
+      "phrase": "Help, please.",
+      "family": "Cho con chọn một thẻ cảm xúc; lắng nghe mà không chấm đúng sai.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Help, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV diễn cảnh rối tired muốn ngồi nghỉ; mẫu hóa Help, please rồi mời trẻ chọn thẻ hỗ trợ thích hợp.",
+        "14–21 phút  Chơi tích hợp. Theo cặp, trẻ chọn tranh bạn sad hoặc tired, chọn giúp lấy ghế, gọi cô hay cho bạn không gian; trình bày bằng một từ hoặc cử chỉ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn một hành động hỗ trợ phù hợp; dùng help hoặc tín hiệu xin giúp trong trò chơi.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-15",
+      "order": 15,
+      "grade": "la",
+      "week": 8,
+      "topic": "Gia đình của em",
+      "title": "Những người thân quen",
+      "minutes": 30,
+      "goal": "Nhận ra từ chỉ người thân trên tranh; tôn trọng gia đình khác nhau.",
+      "words": [
+        "mother",
+        "father",
+        "baby"
+      ],
+      "phrase": "This is my mother.",
+      "family": "Chào người chăm sóc bằng tiếng Anh nếu con muốn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “This is my mother.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giới thiệu gia đình hư cấu của rối bằng ba nhân vật; nói rõ trẻ có thể chọn người chăm sóc mình để chia sẻ.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép thẻ nhân vật giống nhau rồi đặt trong khung; chỉ nhân vật khi nghe tên và giới thiệu bằng từ hoặc câu mẫu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra hai trong ba từ trên tranh; tham gia theo lựa chọn, không đánh giá cấu trúc gia đình.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-16",
+      "order": 16,
+      "grade": "la",
+      "week": 8,
+      "topic": "Gia đình của em",
+      "title": "Bức tranh gia đình",
+      "minutes": 30,
+      "goal": "Đếm người trong phạm vi 3; giới thiệu một nhân vật.",
+      "words": [
+        "mother",
+        "father",
+        "baby"
+      ],
+      "phrase": "This is my father.",
+      "family": "Chào người chăm sóc bằng tiếng Anh nếu con muốn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “This is my father.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV kể ba tranh: mother tìm baby, father đến, cả nhà chào. Trẻ chọn nhân vật xuất hiện ở mỗi tranh.",
+        "14–21 phút  Chơi tích hợp. Trẻ vẽ hoặc chọn 1–3 người thân, đếm từng nhân vật và chia sẻ một người; chấp nhận dùng tên riêng hoặc từ tiếng Việt.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Đếm khớp số nhân vật đến 3; chỉ hoặc gọi tên một người theo câu hỏi.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-17",
+      "order": 17,
+      "grade": "la",
+      "week": 9,
+      "topic": "Ôn tập chặng một",
+      "title": "Các trạm khám phá đầu tiên",
+      "minutes": 30,
+      "goal": "Vận dụng từ đã học; ghi nhận tiến bộ nghe hiểu.",
+      "words": [
+        "eyes",
+        "ears",
+        "nose",
+        "happy",
+        "sad",
+        "tired",
+        "mother",
+        "father",
+        "baby"
+      ],
+      "phrase": "Show me …",
+      "family": "Xem sách con mang về và để con tự kể.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Show me …” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV nhắc cách chơi tại ba trạm: đồ dùng lớp, hình màu, cơ thể. Làm mẫu một lượt và cho trẻ tự chọn trạm bắt đầu.",
+        "14–21 phút  Chơi tích hợp. Luân phiên ba nhóm; trẻ nhận yêu cầu chỉ đồ, ghép hình màu và chỉ bộ phận. GV quan sát 5–6 trẻ trọng tâm, các trẻ khác vẫn được chơi.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Lưu hai minh chứng nghe hiểu ở hai trạm khác nhau; ghi rõ mẫu hỗ trợ đã dùng.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-18",
+      "order": 18,
+      "grade": "la",
+      "week": 9,
+      "topic": "Ôn tập chặng một",
+      "title": "Cuốn sách nhỏ về em",
+      "minutes": 30,
+      "goal": "Chia sẻ sản phẩm; phản hồi chào hỏi và cảm xúc.",
+      "words": [
+        "eyes",
+        "ears",
+        "nose",
+        "happy",
+        "sad",
+        "tired",
+        "mother",
+        "father",
+        "baby"
+      ],
+      "phrase": "Hello. I am …",
+      "family": "Xem sách con mang về và để con tự kể.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Hello. I am …” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV mở sách mẫu ba trang: tên nhân vật, màu thích, cảm xúc. Trẻ chọn thẻ phù hợp để kể lại theo tranh.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép ba trang sách từ hình sẵn có, giới thiệu với một bạn; GV ghi một phát ngôn thực tế hoặc phản hồi cử chỉ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một lượt tương tác với bạn; so sánh với tuần 1 về mức tự tin, không so hạng trẻ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-19",
+      "order": 19,
+      "grade": "la",
+      "week": 10,
+      "topic": "Ngôi nhà thân thuộc",
+      "title": "Khám phá ngôi nhà",
+      "minutes": 30,
+      "goal": "Nhận ra ba phần quen thuộc; ghép vị trí trên mô hình.",
+      "words": [
+        "home",
+        "door",
+        "window"
+      ],
+      "phrase": "Point to the door.",
+      "family": "Chỉ door và window trong nhà cùng người lớn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Point to the door.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giới thiệu nhà bìa và chỉ door, window; mở đóng cửa mô hình để trẻ liên hệ chức năng.",
+        "14–21 phút  Chơi tích hợp. Trẻ dán thẻ vào vị trí thích hợp trên nhà, tìm và đếm door hoặc window trong phạm vi 3.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chỉ đúng door và window ở mô hình khác mẫu; đếm từng cửa khi được hỗ trợ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-20",
+      "order": 20,
+      "grade": "la",
+      "week": 10,
+      "topic": "Ngôi nhà thân thuộc",
+      "title": "Nhà cho rối nhỏ",
+      "minutes": 30,
+      "goal": "Ghép nhà bằng hình; thực hiện hai bước có đồ vật.",
+      "words": [
+        "home",
+        "door",
+        "window"
+      ],
+      "phrase": "Take a square. Make a home.",
+      "family": "Chỉ door và window trong nhà cùng người lớn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Take a square. Make a home.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV nhắc square, triangle rồi lắp home cho rối; trẻ dự đoán miếng nào làm mái, miếng nào làm thân.",
+        "14–21 phút  Chơi tích hợp. Nhóm nhỏ xây nhà giấy có một door và hai window, tự chọn màu; mỗi trẻ giới thiệu một phần bằng chỉ hoặc nói tên.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Làm được một nhiệm vụ ghép nhà; nhận diện hai phần được hỏi trong sản phẩm.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-21",
+      "order": 21,
+      "grade": "la",
+      "week": 11,
+      "topic": "Vị trí của đồ vật",
+      "title": "Rối đang ở đâu",
+      "minutes": 30,
+      "goal": "Phân biệt in và on; đặt vật theo yêu cầu.",
+      "words": [
+        "in",
+        "on",
+        "under"
+      ],
+      "phrase": "Put it in the box.",
+      "family": "Đặt một đồ chơi in, on, under theo lời người lớn, không leo trèo.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Put it in the box.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đặt rối in hộp rồi on hộp, vừa nói vừa chỉ. Trẻ so hai cảnh và thử đặt rối theo lệnh.",
+        "14–21 phút  Chơi tích hợp. Theo cặp, một trẻ chọn thẻ in hoặc on, bạn đặt vật theo thẻ; GV kiểm tra bằng đổi đồ dùng.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Đặt đúng in và on ở hai tình huống với đồ vật mới.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-22",
+      "order": 22,
+      "grade": "la",
+      "week": 11,
+      "topic": "Vị trí của đồ vật",
+      "title": "Săn tìm dưới bàn",
+      "minutes": 30,
+      "goal": "Phân biệt under với hai vị trí đã học; thử chuỗi hai bước.",
+      "words": [
+        "in",
+        "on",
+        "under"
+      ],
+      "phrase": "Put the book on the chair.",
+      "family": "Đặt một đồ chơi in, on, under theo lời người lớn, không leo trèo.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Put the book on the chair.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đặt rối under bàn và cho trẻ chỉ từ chỗ ngồi; không yêu cầu chui dưới bàn. Ôn in, on bằng đổi vị trí.",
+        "14–21 phút  Chơi tích hợp. Trẻ bố trí ba đồ vật theo tranh; GV nói lấy book rồi đặt on chair. Trẻ khá nhận thêm bước cuối chỉ vật under bàn.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân biệt đúng ít nhất hai vị trí; ghi số bước trẻ thực hiện độc lập.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-23",
+      "order": 23,
+      "grade": "la",
+      "week": 12,
+      "topic": "Trái cây quanh em",
+      "title": "Giỏ trái cây",
+      "minutes": 30,
+      "goal": "Nhận ra ba loại quả; phân loại bằng quan sát.",
+      "words": [
+        "apple",
+        "banana",
+        "orange"
+      ],
+      "phrase": "An apple, please.",
+      "family": "Gọi tên một loại quả nhìn thấy trong bữa ăn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “An apple, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV mở giỏ mô hình, gọi tên từng quả; trẻ chọn theo lời nhờ, không tổ chức ăn thử.",
+        "14–21 phút  Chơi tích hợp. Mỗi nhóm phân quả vào ba giỏ ảnh, rồi thử đếm 1–5 cùng GV bằng cách chạm từng quả; giới thiệu four, five qua lượng thật.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng hai loại quả trong ba lượt; ghi mức đếm tương ứng đến 5.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-24",
+      "order": 24,
+      "grade": "la",
+      "week": 12,
+      "topic": "Trái cây quanh em",
+      "title": "Cửa hàng trái cây",
+      "minutes": 30,
+      "goal": "Dùng một từ hoặc lời xin đơn giản; tạo nhóm đến 5.",
+      "words": [
+        "apple",
+        "banana",
+        "orange"
+      ],
+      "phrase": "Two bananas, please.",
+      "family": "Gọi tên một loại quả nhìn thấy trong bữa ăn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Two bananas, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV và rối làm mẫu người mua xin một apple, người bán đưa và nhận Thank you. Sau đó đổi sang hai quả.",
+        "14–21 phút  Chơi tích hợp. Theo nhóm ba, trẻ đổi vai mua, bán và kiểm hàng; dùng thẻ số 1–5 nếu lời nói còn khó. Không yêu cầu tính tiền.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một lượt xin và đáp; lấy đúng lượng trong phạm vi phù hợp với trẻ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-25",
+      "order": 25,
+      "grade": "la",
+      "week": 13,
+      "topic": "Đồ ăn và thức uống",
+      "title": "Bữa ăn của rối",
+      "minutes": 30,
+      "goal": "Nhận ra ba từ; ghép món ăn và thức uống với đồ dùng.",
+      "words": [
+        "rice",
+        "milk",
+        "water"
+      ],
+      "phrase": "Water, please.",
+      "family": "Để con xin water bằng lời hoặc chỉ; không bắt lặp lại nhiều lần.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Water, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối chọn rice, milk, water bằng tranh và đồ dùng; trẻ chỉ món khi nghe từ, chấp nhận sở thích khác nhau.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép rice với bát, milk và water với cốc, rồi đóng vai xin một lựa chọn. Không đưa nhận định dinh dưỡng từ một tranh đơn lẻ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng hai đồ dùng với tranh; đưa ra một lời xin hoặc chỉ lựa chọn.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-26",
+      "order": 26,
+      "grade": "la",
+      "week": 13,
+      "topic": "Đồ ăn và thức uống",
+      "title": "Em thích món nào",
+      "minutes": 30,
+      "goal": "Bày tỏ sở thích; so sánh số lựa chọn bằng hàng tương ứng.",
+      "words": [
+        "rice",
+        "milk",
+        "water"
+      ],
+      "phrase": "I like rice.",
+      "family": "Để con xin water bằng lời hoặc chỉ; không bắt lặp lại nhiều lần.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I like rice.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV chọn một tranh và nói I like rice, mời trẻ chọn tranh của mình; trẻ có thể nói một từ thay câu đầy đủ.",
+        "14–21 phút  Chơi tích hợp. Trẻ đặt thẻ vào hai hàng lựa chọn rice hoặc milk theo câu hỏi giả định; ghép từng cặp thẻ để nhìn hàng nhiều hơn, không bình phẩm sở thích.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nêu hoặc chỉ được sở thích; ghép được thẻ tương ứng giữa hai hàng đến 5.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-27",
+      "order": 27,
+      "grade": "la",
+      "week": 14,
+      "topic": "Tự chăm sóc bản thân",
+      "title": "Sạch và cần làm sạch",
+      "minutes": 30,
+      "goal": "Phân loại clean và dirty qua tranh; hiểu wash trong tình huống.",
+      "words": [
+        "wash",
+        "clean",
+        "dirty"
+      ],
+      "phrase": "Wash your hands.",
+      "family": "Ôn wash khi rửa tay theo nếp sinh hoạt gia đình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Wash your hands.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giơ hai tranh tay clean và dirty; mô tả rối cần wash. Trẻ ghép tranh hành động với trạng thái thích hợp.",
+        "14–21 phút  Chơi tích hợp. Trẻ sắp ba tranh: tay bẩn, rửa theo hướng dẫn của trường, tay sạch; đóng vai động tác với khăn khô.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân loại đúng hai trạng thái; xếp đúng đầu và cuối của chuỗi tranh.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-28",
+      "order": 28,
+      "grade": "la",
+      "week": 14,
+      "topic": "Tự chăm sóc bản thân",
+      "title": "Các bước chăm sóc",
+      "minutes": 30,
+      "goal": "Nghe chuỗi hai bước; kể lại trình tự theo tranh.",
+      "words": [
+        "wash",
+        "clean",
+        "dirty"
+      ],
+      "phrase": "Wash your hands. Dry your hands.",
+      "family": "Ôn wash khi rửa tay theo nếp sinh hoạt gia đình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Wash your hands. Dry your hands.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đọc truyện tranh tự soạn: My hands are dirty. I wash my hands. My hands are clean. Trẻ chọn tranh cho mỗi câu.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép lại bộ ba tranh, diễn động tác và nói clean hoặc wash; nếu thực hành thật, GV mầm non hướng dẫn theo quy trình của trường.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Thực hiện được chuỗi hai hành động mô phỏng; chỉ đúng tranh kết quả clean.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-29",
+      "order": 29,
+      "grade": "la",
+      "week": 15,
+      "topic": "So sánh kích thước",
+      "title": "Lớn và nhỏ",
+      "minutes": 30,
+      "goal": "So sánh hai vật cùng loại; phân nhóm big và small.",
+      "words": [
+        "big",
+        "small",
+        "same"
+      ],
+      "phrase": "Show me the big circle.",
+      "family": "So hai chiếc cốc đồ chơi cùng loại: big và small.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Show me the big circle.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đặt hai circle cùng màu khác cỡ để trẻ quan sát; nói big và small, tránh dùng hai vật khác loại để mở đầu.",
+        "14–21 phút  Chơi tích hợp. Trẻ phân khối vào hai nền, sau đó nghe yêu cầu ghép màu và kích thước như big red circle với hỗ trợ tranh.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng big hoặc small ở hai cặp mới; ghi riêng yêu cầu có hai thuộc tính.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-30",
+      "order": 30,
+      "grade": "la",
+      "week": 15,
+      "topic": "So sánh kích thước",
+      "title": "Tìm hai vật giống nhau",
+      "minutes": 30,
+      "goal": "Ghép cặp theo kích thước và hình; nhận ra same.",
+      "words": [
+        "big",
+        "small",
+        "same"
+      ],
+      "phrase": "They are the same.",
+      "family": "So hai chiếc cốc đồ chơi cùng loại: big và small.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “They are the same.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đặt ba khối gồm hai khối giống nhau và một khác cỡ; trẻ tìm cặp same bằng đặt chồng hoặc đặt cạnh.",
+        "14–21 phút  Chơi tích hợp. Theo nhóm nhỏ, trẻ chơi tìm cặp hình cùng cỡ, tự nói same hoặc chỉ; đếm số cặp đến 5 cùng GV.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Tìm đúng hai cặp same; chỉ được vật khác cỡ trong nhóm ba.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-31",
+      "order": 31,
+      "grade": "la",
+      "week": 16,
+      "topic": "Dự án ngôi nhà và bữa ăn",
+      "title": "Thiết kế góc gia đình",
+      "minutes": 30,
+      "goal": "Kết hợp hình vị trí và đồ dùng; hợp tác theo vai.",
+      "words": [
+        "rice",
+        "milk",
+        "water",
+        "wash",
+        "clean",
+        "dirty",
+        "big",
+        "small",
+        "same"
+      ],
+      "phrase": "Put the apple on the table.",
+      "family": "Cho con kể một việc mình đã làm trong dự án.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Put the apple on the table.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đưa nhiệm vụ tạo góc cho rối ăn cùng gia đình; trẻ nhìn các vật liệu đã học và đề xuất bằng lời hoặc chỉ.",
+        "14–21 phút  Chơi tích hợp. Nhóm ba lắp nhà, đặt đồ ăn theo hai yêu cầu vị trí rồi chọn một người thân bằng thẻ; đổi vai để mỗi trẻ có việc.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một đóng góp cho nhóm; thực hiện được một chỉ dẫn vị trí trên mô hình.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-32",
+      "order": 32,
+      "grade": "la",
+      "week": 16,
+      "topic": "Dự án ngôi nhà và bữa ăn",
+      "title": "Mời bạn tới nhà",
+      "minutes": 30,
+      "goal": "Vận dụng lời chào xin cảm ơn; giới thiệu sản phẩm.",
+      "words": [
+        "rice",
+        "milk",
+        "water",
+        "wash",
+        "clean",
+        "dirty",
+        "big",
+        "small",
+        "same"
+      ],
+      "phrase": "Hello. Water, please. Thank you.",
+      "family": "Cho con kể một việc mình đã làm trong dự án.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Hello. Water, please. Thank you.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV diễn một cuộc thăm nhà bằng ba rối và ba tranh tình huống; trẻ nhận diện lời chào và lời xin.",
+        "14–21 phút  Chơi tích hợp. Mỗi nhóm mời một nhóm khác chơi trong góc gia đình, giới thiệu home và món ăn; GV quan sát lượt giao tiếp thay vì chấm sản phẩm đẹp.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một chuỗi trao đổi hai lượt; nhận ra hai từ thuộc hai chủ đề khác nhau.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-33",
+      "order": 33,
+      "grade": "la",
+      "week": 17,
+      "topic": "Chia sẻ và lễ hội",
+      "title": "Món quà của bạn",
+      "minutes": 30,
+      "goal": "Nhận ra ba từ; thể hiện trao nhận lịch sự.",
+      "words": [
+        "gift",
+        "star",
+        "card"
+      ],
+      "phrase": "A gift for you.",
+      "family": "Dùng card để nói cảm ơn một người giúp đỡ mình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “A gift for you.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối nhận một card có star, gọi tên từng phần; trò chuyện ngắn bằng tiếng Việt về việc chia sẻ.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép star lên card, đếm 1–5 hình đã dán và chọn người nhận; dùng bìa in sẵn, không cần cắt chi tiết nhỏ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chỉ đúng card và star; tham gia một lượt trao hoặc nhận.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-34",
+      "order": 34,
+      "grade": "la",
+      "week": 17,
+      "topic": "Chia sẻ và lễ hội",
+      "title": "Thiệp chúc thân thiện",
+      "minutes": 30,
+      "goal": "Hoàn thành sản phẩm; nói cảm ơn hoặc phản hồi bằng động tác.",
+      "words": [
+        "gift",
+        "star",
+        "card"
+      ],
+      "phrase": "Thank you.",
+      "family": "Dùng card để nói cảm ơn một người giúp đỡ mình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Thank you.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV diễn hai cách trao thiệp có lời và bằng cử chỉ; trẻ chọn cách phù hợp. Hoạt động trung tính, không bắt buộc gắn tôn giáo.",
+        "14–21 phút  Chơi tích hợp. Trẻ trang trí card bằng hình màu đã học, rồi tặng bạn hoặc mang về người chăm sóc; giới thiệu một màu hay số lượng trên thiệp.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có phản hồi phù hợp khi nhận thiệp; chỉ đúng một màu hoặc số lượng đến 5.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-35",
+      "order": 35,
+      "grade": "la",
+      "week": 18,
+      "topic": "Vật nuôi gần gũi",
+      "title": "Gặp các bạn vật nuôi",
+      "minutes": 30,
+      "goal": "Nhận ra ba con vật; đếm nhóm nhỏ với tương ứng từng vật.",
+      "words": [
+        "cat",
+        "dog",
+        "fish"
+      ],
+      "phrase": "It is a cat.",
+      "family": "Tìm cat, dog hoặc fish trong sách; không tiếp xúc động vật lạ.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “It is a cat.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối đi tìm cat, dog, fish trong ba tranh. Trẻ nghe tên rồi đặt đúng mô hình cạnh tranh.",
+        "14–21 phút  Chơi tích hợp. Trẻ tạo nhóm 1–5 con, sau đó quan sát GV thêm để giới thiệu six, seven, eight; trẻ đếm đến mức sẵn sàng.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng hai con vật; ghi mức đếm độc lập, không bắt buộc mọi trẻ đạt 8 ngay.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-36",
+      "order": 36,
+      "grade": "la",
+      "week": 18,
+      "topic": "Vật nuôi gần gũi",
+      "title": "Chăm sóc vật nuôi qua tranh",
+      "minutes": 30,
+      "goal": "Ghép con vật với chỗ ở phù hợp; phản hồi câu hỏi đơn giản.",
+      "words": [
+        "cat",
+        "dog",
+        "fish"
+      ],
+      "phrase": "Where is the fish?",
+      "family": "Tìm cat, dog hoặc fish trong sách; không tiếp xúc động vật lạ.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Where is the fish?” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho fish vào tranh bể, cat và dog vào tranh nhà; dùng câu hỏi để trẻ tìm con vật, không sử dụng động vật sống.",
+        "14–21 phút  Chơi tích hợp. Nhóm trẻ sắp góc vật nuôi bằng mô hình, đặt fish in bể và cat under bàn; dùng từ vị trí đã học khi giới thiệu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng fish với bể; làm được một yêu cầu vị trí với con vật.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-37",
+      "order": 37,
+      "grade": "la",
+      "week": 19,
+      "topic": "Động vật quanh em",
+      "title": "Quan sát các con vật",
+      "minutes": 30,
+      "goal": "Nhận ra ba con vật; so sánh đặc điểm nhìn thấy.",
+      "words": [
+        "bird",
+        "duck",
+        "cow"
+      ],
+      "phrase": "Show me the duck.",
+      "family": "Nhìn một tranh nông trại và cho con chọn con vật yêu thích.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Show me the duck.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV dùng tranh thật rõ để phân biệt bird, duck, cow; trẻ nhận xét chân hoặc cánh bằng lời bất kỳ, GV nhắc từ đích.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép con vật giống nhau, đặt một khối cho mỗi con rồi đếm đến 8 theo khả năng; nhấn chạm một con ứng một số.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra hai con vật sau khi đổi ảnh; đếm không bỏ sót một nhóm được giao.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-38",
+      "order": 38,
+      "grade": "la",
+      "week": 19,
+      "topic": "Động vật quanh em",
+      "title": "Tranh nông trại của lớp",
+      "minutes": 30,
+      "goal": "Phân nhóm theo tiêu chí cho trước; chia sẻ một lựa chọn.",
+      "words": [
+        "bird",
+        "duck",
+        "cow"
+      ],
+      "phrase": "I see a cow.",
+      "family": "Nhìn một tranh nông trại và cho con chọn con vật yêu thích.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I see a cow.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đưa tranh duck gần nước, cow trên cỏ và bird trên cây; giải thích đây là cảnh trong tranh, không phải quy tắc tuyệt đối.",
+        "14–21 phút  Chơi tích hợp. Mỗi nhóm làm tranh nông trại, phân thẻ theo màu hoặc kích thước theo tiêu chí GV nêu; giới thiệu một con vật trong tranh.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân nhóm nhất quán theo một tiêu chí; nói hoặc chỉ đúng con vật được hỏi.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-39",
+      "order": 39,
+      "grade": "la",
+      "week": 20,
+      "topic": "Con vật vận động",
+      "title": "Ai đi ai bơi",
+      "minutes": 30,
+      "goal": "Ghép động tác với tranh; nghe và làm động tác vừa sức.",
+      "words": [
+        "walk",
+        "jump",
+        "swim"
+      ],
+      "phrase": "I can jump.",
+      "family": "Chọn walk hoặc jump làm động tác nhẹ ở nơi an toàn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I can jump.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối walk, jump rồi dùng tranh fish swim; trẻ chỉ hành động hoặc bắt chước tại chỗ. Không yêu cầu nhảy xa.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép thẻ hành động với con vật phù hợp trong tranh, rồi chơi nghe và chọn thẻ; chấp nhận trẻ phản hồi bằng tay khi không muốn vận động.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra hai động tác; chọn được một cách thể hiện khả năng của mình.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-40",
+      "order": 40,
+      "grade": "la",
+      "week": 20,
+      "topic": "Con vật vận động",
+      "title": "Câu chuyện tìm bạn",
+      "minutes": 30,
+      "goal": "Theo dõi ba tranh truyện; sắp lại trình tự.",
+      "words": [
+        "walk",
+        "jump",
+        "swim"
+      ],
+      "phrase": "The cat can walk.",
+      "family": "Chọn walk hoặc jump làm động tác nhẹ ở nơi an toàn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “The cat can walk.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV kể truyện mới: A cat can walk. A duck can swim. Friends say hello. Trẻ tìm con vật trong từng tranh.",
+        "14–21 phút  Chơi tích hợp. Trẻ xếp ba tranh, dùng rối diễn một cảnh và nói walk hoặc swim; trẻ khá ghép hai từ hay câu mẫu, không bắt kể thuộc.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Xếp được đầu và cuối câu chuyện; trả lời một câu hỏi bằng chỉ hoặc 1–3 từ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-41",
+      "order": 41,
+      "grade": "la",
+      "week": 21,
+      "topic": "Cây lớn lên",
+      "title": "Quan sát cây bằng mắt",
+      "minutes": 30,
+      "goal": "Nhận ra ba từ; nhận xét thay đổi qua tranh.",
+      "words": [
+        "seed",
+        "leaf",
+        "flower"
+      ],
+      "phrase": "Point to the leaf.",
+      "family": "Quan sát một cây cùng người lớn, không tự hái hoặc nếm.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Point to the leaf.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho xem hạt trong hộp kín, lá và hoa qua ảnh rõ; trẻ chỉ phần khi nghe từ và so hình dạng bằng quan sát.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép ba thẻ seed, leaf, flower vào tranh thích hợp; quan sát cây đã trồng sẵn, vẽ một điều mình thấy.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chỉ đúng hai trong ba phần; đưa ra một quan sát bằng lời hoặc hình vẽ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-42",
+      "order": 42,
+      "grade": "la",
+      "week": 21,
+      "topic": "Cây lớn lên",
+      "title": "Nhật ký cây của lớp",
+      "minutes": 30,
+      "goal": "Xếp trình tự đơn giản; hiểu cây cần thời gian phát triển.",
+      "words": [
+        "seed",
+        "leaf",
+        "flower"
+      ],
+      "phrase": "A seed. A leaf. A flower.",
+      "family": "Quan sát một cây cùng người lớn, không tự hái hoặc nếm.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “A seed. A leaf. A flower.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho ba ảnh chụp cùng loại cây ở các thời điểm, nói tên phần nổi bật. Không hứa hạt nảy mầm trong một buổi.",
+        "14–21 phút  Chơi tích hợp. Nhóm trẻ xếp bộ ảnh từ seed đến cây có leaf rồi flower; chọn một ảnh cho nhật ký, GV ghi ngày quan sát thực tế.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Sắp đúng trình tự ba ảnh khi có gợi ý; nhận ra flower trong ảnh khác.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-43",
+      "order": 43,
+      "grade": "la",
+      "week": 22,
+      "topic": "Tết và mùa xuân",
+      "title": "Mùa xuân quanh em",
+      "minutes": 30,
+      "goal": "Nhận biết spring trong ngữ cảnh; ôn màu và hoa.",
+      "words": [
+        "spring",
+        "flower",
+        "leaf"
+      ],
+      "phrase": "A yellow flower.",
+      "family": "Ôn lời chào với người thân; chuyển tuần này sát Tết thực tế của trường.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “A yellow flower.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giới thiệu spring qua tranh địa phương và cho trẻ tìm flower, red, yellow đã học; không yêu cầu mọi nhà có cùng nếp Tết.",
+        "14–21 phút  Chơi tích hợp. Trẻ phân hoa giấy theo màu, đếm đến 8 theo khả năng rồi ghép thành góc xuân; mỗi trẻ chọn một hoa để giới thiệu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra flower theo lời gọi; phân đúng nhóm màu và đếm nhóm được giao.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-44",
+      "order": 44,
+      "grade": "la",
+      "week": 22,
+      "topic": "Tết và mùa xuân",
+      "title": "Lời chào khi gặp người thân",
+      "minutes": 30,
+      "goal": "Vận dụng lời chào cảm ơn; kể trải nghiệm tự chọn.",
+      "words": [
+        "spring",
+        "flower",
+        "leaf"
+      ],
+      "phrase": "Hello. Thank you.",
+      "family": "Ôn lời chào với người thân; chuyển tuần này sát Tết thực tế của trường.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Hello. Thank you.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối gặp người thân, nhận card và nói Thank you; trẻ chọn lời đáp cho mỗi cảnh.",
+        "14–21 phút  Chơi tích hợp. Trẻ đóng vai đi thăm gia đình bằng tranh hư cấu, chọn một món gift giấy để trao; ai không muốn kể chuyện nhà có thể dùng nhân vật rối.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Dùng một lời chào hoặc cảm ơn đúng tình huống; tham gia một lượt đóng vai.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-45",
+      "order": 45,
+      "grade": "la",
+      "week": 23,
+      "topic": "Ôn động vật cây và gia đình",
+      "title": "Bản đồ khám phá nhỏ",
+      "minutes": 30,
+      "goal": "Ôn nhận diện từ; phân loại con vật cây và người.",
+      "words": [
+        "walk",
+        "jump",
+        "swim",
+        "seed",
+        "leaf",
+        "flower",
+        "spring"
+      ],
+      "phrase": "Find the cat. Find the flower.",
+      "family": "Đọc lại tranh của con; để con tự chọn từ muốn nói.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Find the cat. Find the flower.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV trải ba nền tranh và làm mẫu đặt một thẻ; trẻ thảo luận tiêu chí nhóm bằng ngôn ngữ thuận tiện.",
+        "14–21 phút  Chơi tích hợp. Trẻ chọn thẻ, đặt đúng nhóm và nói hoặc chỉ tên; GV đổi thứ tự câu hỏi để kiểm tra nghe hiểu thay vì nhớ vị trí.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân đúng 4/5 thẻ quen; lưu một phản hồi độc lập và một phản hồi có hỗ trợ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-46",
+      "order": 46,
+      "grade": "la",
+      "week": 23,
+      "topic": "Ôn động vật cây và gia đình",
+      "title": "Kể chuyện bằng rối và tranh",
+      "minutes": 30,
+      "goal": "Liên kết hai cảnh; trả lời câu hỏi về nhân vật.",
+      "words": [
+        "walk",
+        "jump",
+        "swim",
+        "seed",
+        "leaf",
+        "flower",
+        "spring"
+      ],
+      "phrase": "I see a dog.",
+      "family": "Đọc lại tranh của con; để con tự chọn từ muốn nói.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I see a dog.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV kể ba cảnh mới bằng từ đã học: gia đình ở home, dog gần cây, mọi người chào. Cho trẻ chọn thứ tự mở tranh.",
+        "14–21 phút  Chơi tích hợp. Theo cặp, trẻ chọn hai hoặc ba thẻ tự kể cảnh, bạn tìm nhân vật được nhắc; GV ghi lời nói nguyên văn để so tiến bộ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra nhân vật trong truyện; có hai lượt tương tác với bạn theo cách phù hợp.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-47",
+      "order": 47,
+      "grade": "la",
+      "week": 24,
+      "topic": "Thời tiết hôm nay",
+      "title": "Nhìn trời qua cửa sổ",
+      "minutes": 30,
+      "goal": "Nhận ra ba từ; liên hệ với dấu hiệu quan sát.",
+      "words": [
+        "sunny",
+        "rainy",
+        "windy"
+      ],
+      "phrase": "It is sunny.",
+      "family": "Quan sát thời tiết qua cửa sổ cùng người lớn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “It is sunny.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV giới thiệu ảnh ba kiểu thời tiết; nhìn trời từ trong lớp và hỏi trẻ chọn thẻ phù hợp với dấu hiệu thấy được.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép sunny với bóng nắng trong tranh, rainy với mưa, windy với cành lá lay; thổi nhẹ dải giấy cá nhân nếu muốn.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng hai dấu hiệu với thẻ; đưa ra lựa chọn thời tiết hôm nay.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-48",
+      "order": 48,
+      "grade": "la",
+      "week": 24,
+      "topic": "Thời tiết hôm nay",
+      "title": "Bảng thời tiết của lớp",
+      "minutes": 30,
+      "goal": "Ghi nhận bằng biểu tượng; so sánh dữ liệu mẫu.",
+      "words": [
+        "sunny",
+        "rainy",
+        "windy"
+      ],
+      "phrase": "It is rainy.",
+      "family": "Quan sát thời tiết qua cửa sổ cùng người lớn.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “It is rainy.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV nhắc lại quan sát trước rồi đặt một thẻ cho hôm nay; phân biệt thời tiết thực với bộ tranh minh họa dùng để tập.",
+        "14–21 phút  Chơi tích hợp. Dùng bộ dữ liệu mẫu 5 ngày có 3 sunny và 2 rainy; trẻ đặt thẻ thành hai hàng, ghép cặp để nhận ra nhóm nhiều hơn.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Đặt đúng biểu tượng theo tranh; so hai nhóm bằng ghép từng cặp, không cần phép tính.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-49",
+      "order": 49,
+      "grade": "la",
+      "week": 25,
+      "topic": "Trang phục và thời tiết",
+      "title": "Cảm nhận nóng và lạnh qua tranh",
+      "minutes": 30,
+      "goal": "Nhận ra hot cold; chọn trang phục theo tình huống.",
+      "words": [
+        "hot",
+        "cold",
+        "coat"
+      ],
+      "phrase": "It is cold.",
+      "family": "Chọn đồ phù hợp thời tiết thực tế với người chăm sóc.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “It is cold.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV dùng tranh cảnh trời nóng và lạnh, không dùng nước nóng hoặc đá chạm trực tiếp; cho rối chọn coat khi cảnh lạnh.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép thẻ coat vào nhân vật trong tranh phù hợp; giải thích bằng tiếng Việt hoặc từ cold, chấp nhận khác biệt cảm nhận.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân biệt hot và cold qua hai cảnh; nhận ra coat trong hai loại trang phục.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-50",
+      "order": 50,
+      "grade": "la",
+      "week": 25,
+      "topic": "Trang phục và thời tiết",
+      "title": "Vali đi chơi của rối",
+      "minutes": 30,
+      "goal": "Lựa chọn theo hai điều kiện; thực hiện hai bước.",
+      "words": [
+        "hot",
+        "cold",
+        "coat"
+      ],
+      "phrase": "Take the coat. Put it in the bag.",
+      "family": "Chọn đồ phù hợp thời tiết thực tế với người chăm sóc.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Take the coat. Put it in the bag.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối đi nơi cold, nhờ trẻ chọn coat rồi bỏ vào bag; chuyển sang tranh hot để trẻ cân nhắc lại.",
+        "14–21 phút  Chơi tích hợp. Nhóm trẻ chuẩn bị vali giấy với 2–3 thẻ; nghe chỉ dẫn lấy đồ rồi đặt in bag, giới thiệu một lựa chọn theo tranh.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Thực hiện hai bước khi có khả năng; lựa chọn coat hợp cảnh cold và giải thích theo cách riêng.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-51",
+      "order": 51,
+      "grade": "la",
+      "week": 26,
+      "topic": "Phương tiện đi lại",
+      "title": "Các phương tiện quen thuộc",
+      "minutes": 30,
+      "goal": "Nhận ra ba phương tiện; phân loại theo hình ảnh.",
+      "words": [
+        "car",
+        "bus",
+        "bike"
+      ],
+      "phrase": "I see a bus.",
+      "family": "Tìm bus hoặc bike trong tranh, tránh đứng sát đường để quan sát.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I see a bus.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho xem car, bus, bike ở nhiều góc ảnh; trẻ chọn ảnh phù hợp khi nghe tên, không chỉ dựa màu xe.",
+        "14–21 phút  Chơi tích hợp. Trẻ phân xe theo loại, đếm từng nhóm; GV giới thiệu nine, ten bằng thêm khối đếm vào hàng 8, không yêu cầu đếm bánh mọi loại xe.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra hai phương tiện trong ảnh mới; ghi mức đếm tương ứng tới 10.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-52",
+      "order": 52,
+      "grade": "la",
+      "week": 26,
+      "topic": "Phương tiện đi lại",
+      "title": "Bãi xe theo số lượng",
+      "minutes": 30,
+      "goal": "Tạo nhóm đến 10 theo khả năng; ôn màu và vị trí.",
+      "words": [
+        "car",
+        "bus",
+        "bike"
+      ],
+      "phrase": "Three cars, please.",
+      "family": "Tìm bus hoặc bike trong tranh, tránh đứng sát đường để quan sát.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Three cars, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đỗ ba car trong ô bìa, đếm chạm từng chiếc; cho trẻ đối chiếu lượng với thẻ số trước khi tự làm.",
+        "14–21 phút  Chơi tích hợp. Trẻ chọn nhiệm vụ bãi xe 1–5 hoặc 6–10, phân xe theo car, bus, bike; đặt xe in ô và giới thiệu số lượng.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Tạo đúng một nhóm theo thẻ số ở mức đã chọn; gọi hoặc chỉ đúng loại phương tiện.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-53",
+      "order": 53,
+      "grade": "la",
+      "week": 27,
+      "topic": "Đi lại an toàn",
+      "title": "Nghe tín hiệu dừng và đi",
+      "minutes": 30,
+      "goal": "Nhận ra stop go wait; kiểm soát vận động theo tín hiệu.",
+      "words": [
+        "stop",
+        "go",
+        "wait"
+      ],
+      "phrase": "Stop. Wait. Go.",
+      "family": "Nhắc con luôn đi cùng người lớn theo hướng dẫn an toàn của gia đình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Stop. Wait. Go.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV làm mẫu với rối trên đường giấy: stop, đứng wait, rồi go khi GV cho phép; giải thích đây là trò chơi trong lớp.",
+        "14–21 phút  Chơi tích hợp. Trẻ đi chậm theo nhóm nhỏ, dừng ở vạch khi thấy thẻ stop. Trẻ không vận động có thể di chuyển xe đồ chơi bằng tay.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phản ứng phù hợp ba tín hiệu; biết chờ lượt khi bạn đang trên đường.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-54",
+      "order": 54,
+      "grade": "la",
+      "week": 27,
+      "topic": "Đi lại an toàn",
+      "title": "Qua đường cùng người lớn",
+      "minutes": 30,
+      "goal": "Xếp trình tự tình huống; nhận diện ký hiệu STOP.",
+      "words": [
+        "stop",
+        "go",
+        "wait"
+      ],
+      "phrase": "Stop and wait.",
+      "family": "Nhắc con luôn đi cùng người lớn theo hướng dẫn an toàn của gia đình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Stop and wait.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV dùng tranh trẻ đứng cùng người lớn ở điểm qua đường, chỉ ký hiệu STOP; giải thích biển tiếng Anh là hình minh họa, không thay quy tắc địa phương.",
+        "14–21 phút  Chơi tích hợp. Trẻ sắp tranh dừng, chờ người lớn hướng dẫn, đi cùng người lớn khi an toàn; đóng vai bằng rối, không luyện qua đường thật.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra STOP trên thẻ mới; chọn tranh có người lớn đi cùng và giải thích bằng lời hoặc chỉ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-55",
+      "order": 55,
+      "grade": "la",
+      "week": 28,
+      "topic": "Người giúp đỡ quanh em",
+      "title": "Ai làm công việc này",
+      "minutes": 30,
+      "goal": "Nhận ra ba nghề; ghép nghề với hoạt động.",
+      "words": [
+        "doctor",
+        "cook",
+        "farmer"
+      ],
+      "phrase": "She is a doctor.",
+      "family": "Nói lời cảm ơn một người giúp đỡ gia đình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “She is a doctor.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đưa ba tranh doctor chăm sóc người, cook chuẩn bị bữa, farmer chăm cây; trẻ ghép nhân vật với cảnh làm việc.",
+        "14–21 phút  Chơi tích hợp. Nhóm trẻ chọn thẻ vai và xếp đồ dùng hình ảnh phù hợp; dùng cả nhân vật nam nữ, không gán nghề theo giới.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghép đúng hai nghề với hoạt động; gọi hoặc chỉ được một nghề theo lời hỏi.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-56",
+      "order": 56,
+      "grade": "la",
+      "week": 28,
+      "topic": "Người giúp đỡ quanh em",
+      "title": "Góc đóng vai giúp đỡ",
+      "minutes": 30,
+      "goal": "Tham gia tương tác xã hội; dùng lời xin giúp và cảm ơn.",
+      "words": [
+        "doctor",
+        "cook",
+        "farmer"
+      ],
+      "phrase": "Help, please. Thank you.",
+      "family": "Nói lời cảm ơn một người giúp đỡ gia đình.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Help, please. Thank you.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV diễn cảnh rối xin doctor giúp và nói Thank you; nhắc trẻ đây là giả vờ, không khám chạm cơ thể bạn.",
+        "14–21 phút  Chơi tích hợp. Ba góc nghề chỉ dùng tranh hoặc mô hình; trẻ đổi vai, xin một đồ vật và trao nhận. Không dùng thuốc thật hay dụng cụ y tế sắc nhọn.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một chuỗi xin giúp và đáp; nhận diện đúng vai mình chọn qua tranh.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-57",
+      "order": 57,
+      "grade": "la",
+      "week": 29,
+      "topic": "Giữ lớp sạch đẹp",
+      "title": "Nhận ra vật liệu sạch",
+      "minutes": 30,
+      "goal": "Phân biệt paper plastic qua mẫu an toàn; nhận ra bin.",
+      "words": [
+        "paper",
+        "plastic",
+        "bin"
+      ],
+      "phrase": "Put the paper in the bin.",
+      "family": "Cùng người lớn dùng lại một tờ giấy còn mặt trống.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Put the paper in the bin.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho xem giấy và chai nhựa sạch đã bỏ nắp, hướng dẫn nhìn và sờ cạnh an toàn; gọi tên vật liệu và bin qua tranh.",
+        "14–21 phút  Chơi tích hợp. Trẻ phân mẫu vào hai khay có nhãn ảnh; giải thích đây là phân loại học tập, cách thu gom thực tế theo quy định của trường.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Phân đúng 3/4 mẫu quen; nhận ra bin khi nghe lời nhắc.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-58",
+      "order": 58,
+      "grade": "la",
+      "week": 29,
+      "topic": "Giữ lớp sạch đẹp",
+      "title": "Góc tái sử dụng của lớp",
+      "minutes": 30,
+      "goal": "Dùng vật liệu sạch tạo sản phẩm; nhận diện biểu tượng tái chế.",
+      "words": [
+        "paper",
+        "plastic",
+        "bin"
+      ],
+      "phrase": "Paper, please.",
+      "family": "Cùng người lớn dùng lại một tờ giấy còn mặt trống.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Paper, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV chỉ biểu tượng tái chế trên thẻ minh họa, gắn với việc giữ và dùng lại giấy phù hợp; không dạy mọi nhựa đều tái chế như nhau.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép giấy thành tranh flower hoặc home; chọn thẻ paper hay plastic cho vật liệu mình dùng và giới thiệu một màu.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chọn đúng thẻ vật liệu; tham gia cất vật liệu vào đúng nơi sau hoạt động.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-59",
+      "order": 59,
+      "grade": "la",
+      "week": 30,
+      "topic": "Khám phá nổi và chìm",
+      "title": "Dự đoán nổi hay chìm",
+      "minutes": 30,
+      "goal": "Quan sát hiện tượng; phân loại theo kết quả thực nghiệm.",
+      "words": [
+        "float",
+        "sink",
+        "boat"
+      ],
+      "phrase": "It can float.",
+      "family": "Kể lại thí nghiệm bằng tranh; không giao tự chơi nước ở nhà.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “It can float.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho xem hai vật an toàn, mời trẻ dự đoán bằng chọn thẻ; GV tự thả từng vật vào chậu nông và nói float hoặc sink theo kết quả.",
+        "14–21 phút  Chơi tích hợp. Trẻ quan sát 3–4 vật được GV chọn và ghi biểu tượng vào hai cột. Phân biệt dự đoán với kết quả; không chê dự đoán sai.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Xếp đúng hai ảnh theo kết quả đã thấy; phản hồi float hoặc sink bằng lời hay chỉ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-60",
+      "order": 60,
+      "grade": "la",
+      "week": 30,
+      "topic": "Khám phá nổi và chìm",
+      "title": "Thuyền chở bao nhiêu khối",
+      "minutes": 30,
+      "goal": "Thử nghiệm theo lượt; đếm và so sánh lượng đến 10.",
+      "words": [
+        "float",
+        "sink",
+        "boat"
+      ],
+      "phrase": "A boat. One, two, three.",
+      "family": "Kể lại thí nghiệm bằng tranh; không giao tự chơi nước ở nhà.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “A boat. One, two, three.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đặt boat vào chậu, thêm từng khối lớn và đếm; hỏi trẻ quan sát sau mỗi lần thêm, không nói mọi vật nặng đều chìm.",
+        "14–21 phút  Chơi tích hợp. GV thực hiện thử tải cùng trẻ đếm; ghi lượng khối trước khi thuyền bắt đầu chìm. Trẻ mô tả bằng float, sink hoặc cử chỉ.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chạm thẻ đếm khớp lượt thêm; nhận ra thời điểm kết quả thay đổi và chỉ đúng cột.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-61",
+      "order": 61,
+      "grade": "la",
+      "week": 31,
+      "topic": "Đo và so sánh",
+      "title": "Dài và ngắn",
+      "minutes": 30,
+      "goal": "So hai vật cùng loại bằng đặt chung điểm đầu.",
+      "words": [
+        "long",
+        "short",
+        "heavy"
+      ],
+      "phrase": "This is long.",
+      "family": "So hai dải giấy ở nhà bằng cách đặt cùng đầu.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “This is long.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đặt hai dải giấy cùng màu cạnh nhau, chỉnh chung điểm đầu rồi nói long, short; cho trẻ thử đặt lệch để thấy cần chỉnh lại.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép cặp dải giấy, đặt cùng đầu và gắn thẻ long hoặc short; trẻ khá dùng khối lớn đo dọc, không yêu cầu đơn vị chuẩn.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: So đúng hai cặp sau khi căn đầu; giải thích bằng chỉ phần thừa hoặc từ đích.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-62",
+      "order": 62,
+      "grade": "la",
+      "week": 31,
+      "topic": "Đo và so sánh",
+      "title": "Khám phá nặng nhẹ bằng cân",
+      "minutes": 30,
+      "goal": "Nhận ra heavy trong so sánh; đối chiếu dự đoán với cân.",
+      "words": [
+        "long",
+        "short",
+        "heavy"
+      ],
+      "phrase": "This bag is heavy.",
+      "family": "So hai dải giấy ở nhà bằng cách đặt cùng đầu.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “This bag is heavy.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đưa hai túi an toàn nhẹ vừa sức, dùng cân đĩa kiểm tra; heavy chỉ quan hệ giữa hai túi, không gắn mặc định với big.",
+        "14–21 phút  Chơi tích hợp. Trẻ dự đoán túi nào heavy rồi xem cân, đổi vật bên trong và so lại; GV làm việc nâng nếu trẻ không muốn. Ôn big, small bằng nhìn kích thước.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Chỉ đúng túi heavy theo kết quả cân; nhận ra cần kiểm tra thay vì chỉ nhìn kích thước.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-63",
+      "order": 63,
+      "grade": "la",
+      "week": 32,
+      "topic": "Dự án thành phố nhỏ",
+      "title": "Xây thành phố bằng mô hình",
+      "minutes": 30,
+      "goal": "Kết hợp vị trí số lượng nghề; hợp tác phân công.",
+      "words": [
+        "paper",
+        "plastic",
+        "bin",
+        "float",
+        "sink",
+        "boat",
+        "long",
+        "short",
+        "heavy"
+      ],
+      "phrase": "Put the bus on the road.",
+      "family": "Kể về một điểm trong thành phố con đã cùng xây.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Put the bus on the road.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV đưa bản đồ mẫu tối giản gồm home, cây và đường; trẻ chọn thêm một nghề hoặc phương tiện cho thành phố của nhóm.",
+        "14–21 phút  Chơi tích hợp. Nhóm 3–4 trẻ xây mô hình, nhận hai yêu cầu về vị trí và số lượng trong phạm vi 5 hoặc 10; mỗi trẻ có một phần việc.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Thực hiện một chỉ dẫn vị trí; góp một phần vào sản phẩm và chờ lượt dùng vật liệu.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-64",
+      "order": 64,
+      "grade": "la",
+      "week": 32,
+      "topic": "Dự án thành phố nhỏ",
+      "title": "Dẫn bạn đi tham quan",
+      "minutes": 30,
+      "goal": "Chia sẻ hai chi tiết; dùng lời chào và hỏi đơn giản.",
+      "words": [
+        "paper",
+        "plastic",
+        "bin",
+        "float",
+        "sink",
+        "boat",
+        "long",
+        "short",
+        "heavy"
+      ],
+      "phrase": "I see a bus. This is a home.",
+      "family": "Kể về một điểm trong thành phố con đã cùng xây.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I see a bus. This is a home.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV làm mẫu dẫn rối qua hai điểm, chỉ và nói một câu ngắn; trẻ quan sát cách người nghe chờ rồi đặt câu hỏi.",
+        "14–21 phút  Chơi tích hợp. Nhóm đổi khách tham quan; mỗi trẻ chỉ hoặc nói một chi tiết, khách chọn thẻ đúng theo lời hướng dẫn. GV lưu một phát ngôn tự nhiên.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một lượt giới thiệu và một lượt phản hồi; nhận ra hai từ thuộc hai mảng khác nhau.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-65",
+      "order": 65,
+      "grade": "la",
+      "week": 33,
+      "topic": "Ôn tập và quan sát cuối năm",
+      "title": "Hành trình qua các trạm",
+      "minutes": 30,
+      "goal": "Quan sát nghe hiểu trong hoạt động quen; chọn mức nhiệm vụ phù hợp.",
+      "words": [
+        "float",
+        "sink",
+        "boat",
+        "long",
+        "short",
+        "heavy",
+        "paper",
+        "plastic",
+        "bin"
+      ],
+      "phrase": "Take the book. Put it in the bag.",
+      "family": "Cùng con xem một sản phẩm đầu năm và một sản phẩm mới.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Take the book. Put it in the bag.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV làm mẫu ba trạm gồm chọn tranh, làm theo lệnh và tạo nhóm số lượng; trẻ chọn thứ tự và được chơi thử một lượt.",
+        "14–21 phút  Chơi tích hợp. GV quan sát nhóm trọng tâm theo lịch, dùng 4 câu chọn tranh, 2 chuỗi lệnh hai bước và một nhiệm vụ đếm. Các trẻ khác chơi với học liệu quen.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghi từng lượt độc lập, có gợi ý hoặc chưa quan sát; không quy thành điểm chuẩn quốc tế.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-66",
+      "order": 66,
+      "grade": "la",
+      "week": 33,
+      "topic": "Ôn tập và quan sát cuối năm",
+      "title": "Câu chuyện em muốn kể",
+      "minutes": 30,
+      "goal": "Quan sát lời nói tự nhiên; hiểu hai tình tiết truyện.",
+      "words": [
+        "float",
+        "sink",
+        "boat",
+        "long",
+        "short",
+        "heavy",
+        "paper",
+        "plastic",
+        "bin"
+      ],
+      "phrase": "I like … I can …",
+      "family": "Cùng con xem một sản phẩm đầu năm và một sản phẩm mới.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I like … I can …” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV kể truyện tự soạn: A cat sees a flower. A dog brings water. Friends say thank you. Trẻ chọn nhân vật và đồ vật đúng.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép hai hoặc ba tranh để kể lại, hoặc giới thiệu sách của mình từ tuần 9; GV hỏi một câu về sở thích hay khả năng.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Lưu một phản hồi về truyện và một phát ngôn hoặc cử chỉ tự chọn; so tiến bộ của chính trẻ.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-67",
+      "order": 67,
+      "grade": "la",
+      "week": 34,
+      "topic": "Sẵn sàng tới trường mới",
+      "title": "Khám phá trường mới qua tranh",
+      "minutes": 30,
+      "goal": "Nhận ra school pencil ruler; nêu cảm xúc hoặc thắc mắc.",
+      "words": [
+        "school",
+        "pencil",
+        "ruler"
+      ],
+      "phrase": "This is my school.",
+      "family": "Lắng nghe điều con mong đợi ở lớp 1, không giao bài viết tiếng Anh.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “This is my school.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho xem tranh school và hai đồ dùng, hỏi trẻ thấy gì quen thuộc; tránh mô tả lớp 1 như nơi phải học giỏi mới được vào.",
+        "14–21 phút  Chơi tích hợp. Trẻ ghép đồ dùng với ảnh, chọn vật cần cất vào bag, thực hiện hai bước lấy rồi cất; không dạy viết bài hoặc sử dụng thước như yêu cầu học thuật.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Nhận ra hai đồ dùng; có một cách chia sẻ cảm xúc hoặc câu hỏi về trường mới.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-68",
+      "order": 68,
+      "grade": "la",
+      "week": 34,
+      "topic": "Sẵn sàng tới trường mới",
+      "title": "Em có thể nhờ giúp",
+      "minutes": 30,
+      "goal": "Vận dụng lời xin giúp; nhận ra ký hiệu EXIT và TOILET qua tranh.",
+      "words": [
+        "school",
+        "pencil",
+        "ruler"
+      ],
+      "phrase": "Help, please.",
+      "family": "Lắng nghe điều con mong đợi ở lớp 1, không giao bài viết tiếng Anh.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Help, please.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV cho rối chưa biết chỗ để bag và hỏi Help, please; giới thiệu hai ký hiệu EXIT, TOILET bằng hình minh họa đúng nghĩa.",
+        "14–21 phút  Chơi tích hợp. Trẻ dùng bản đồ giấy tìm người lớn để nhờ giúp và chỉ một ký hiệu; không tự đi tìm lối thoát hoặc khu vệ sinh ngoài sự quản lý.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Biết chọn người lớn để nhờ giúp; ghép đúng một ký hiệu với tình huống trong tranh.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-69",
+      "order": 69,
+      "grade": "la",
+      "week": 35,
+      "topic": "Chia sẻ thành quả và kết thúc",
+      "title": "Em chọn điều mình thích",
+      "minutes": 30,
+      "goal": "Tự chọn minh chứng học tập; chia sẻ một sở thích hoặc khả năng.",
+      "words": [
+        "float",
+        "sink",
+        "boat",
+        "long",
+        "short",
+        "heavy",
+        "school",
+        "pencil",
+        "ruler"
+      ],
+      "phrase": "I like … I can …",
+      "family": "Duy trì đọc tranh và trò chuyện ngắn theo hứng thú trong hè.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “I like … I can …” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV trưng bày sản phẩm theo từng trẻ, cho trẻ chọn hai món mình muốn kể; làm mẫu chia sẻ ngắn bằng một từ rồi câu mẫu.",
+        "14–21 phút  Chơi tích hợp. Trẻ giới thiệu với một bạn, chỉ màu, hình, con vật hoặc hành động trong sản phẩm. Bạn chọn thẻ phản hồi; không thi biểu diễn.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Có một lựa chọn của chính trẻ và một lượt chia sẻ; ghi điều trẻ muốn tiếp tục học.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    },
+    {
+      "id": "la-70",
+      "order": 70,
+      "grade": "la",
+      "week": 35,
+      "topic": "Chia sẻ thành quả và kết thúc",
+      "title": "Ngày hội chào tạm biệt",
+      "minutes": 30,
+      "goal": "Tương tác tự nhiên; hoàn thiện nhận xét tiến bộ cá nhân.",
+      "words": [
+        "float",
+        "sink",
+        "boat",
+        "long",
+        "short",
+        "heavy",
+        "school",
+        "pencil",
+        "ruler"
+      ],
+      "phrase": "Hello. Thank you. Goodbye.",
+      "family": "Duy trì đọc tranh và trò chuyện ngắn theo hứng thú trong hè.",
+      "steps": [
+        "0–3 phút  Chào và kết nối. GV chào, mời trẻ đáp bằng lời hoặc vẫy tay; ôn hai từ quen bằng tranh. Quan sát mức sẵn sàng và cho trẻ chọn ngồi cùng bạn nếu cần.",
+        "3–7 phút  Gợi mở. Đưa học liệu đích, nói mẫu “Hello. Thank you. Goodbye.” cùng cử chỉ; mời một trẻ thử. Nếu trẻ chưa hiểu nhiệm vụ, giải thích ngắn bằng tiếng Việt rồi mẫu hóa lại.",
+        "7–14 phút  Khám phá. GV nhắc ba lời giao tiếp, cho rối đi qua các góc sản phẩm và mời trẻ chọn cách tham gia: nói, chỉ, vẽ hoặc quan sát.",
+        "14–21 phút  Chơi tích hợp. Trẻ tham quan theo nhóm nhỏ, hỏi và đáp với học liệu quen. GV hoàn thiện nhận xét về nghe, nói và sự tự tin từ minh chứng cả năm, không chỉ buổi cuối.",
+        "21–27 phút  Tương tác và quan sát. Mỗi cặp đổi vai hỏi/đáp hoặc chọn/chỉ bằng học liệu của bài. GV lấy mẫu theo hai dấu hiệu: Ghi một điểm mạnh, một tiến bộ và một hướng hỗ trợ cho mỗi trẻ; tránh xếp hạng hoặc gắn nhãn năng lực.",
+        "27–30 phút  Kết thúc. Mời trẻ chọn một hình hoặc vật của bài để chỉ/nói; nhắc lại lời mẫu vừa dùng, cùng cất học liệu và chào Goodbye. Ghi nhanh trẻ cần được quan sát lại."
+      ],
+      "sourceStatus": "reference",
+      "version": 1
+    }
+  ]
+}
